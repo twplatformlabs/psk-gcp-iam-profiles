@@ -93,7 +93,7 @@ module "base-role-state" {
 
   source = "terraform-google-modules/iam/google//modules/custom_role_iam"
   #checkov:skip=CKV_TF_1
-  version      = "7.7.0"
+  version      = "8.1.0"
   target_level = "project"
   target_id    = var.gcp_state_project_id
   role_id      = "pskGcpPlatformBaseRole"
@@ -121,7 +121,7 @@ module "state-iam-profiles-role" {
 
   source = "terraform-google-modules/iam/google//modules/custom_role_iam"
   #checkov:skip=CKV_TF_1
-  version      = "7.7.0"
+  version      = "8.1.0"
   target_level = "project"
   target_id    = var.gcp_state_project_id
   role_id      = "pskGcpPlatformIamProfilesRole"
