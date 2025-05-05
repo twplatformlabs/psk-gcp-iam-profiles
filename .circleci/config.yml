@@ -4,7 +4,7 @@ version: 2.1
 orbs:
   executor-tools: twdps/executor-tools@1.10.0
   terraform: twdps/terraform@0.15.0
-  op: twdps/onepassword@1.2.0
+  op: twdps/onepassword@3.0.0
   do: twdps/pipeline-events@2.0.0
 
 # ==== global pipeline parameters
